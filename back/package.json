@@ -1,0 +1,39 @@
+{
+  "name": "express-postgres-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "back",
+  "main": "config.js",
+  "scripts": {
+    "test": "xo",
+    "lint": "xo",
+    "format": "xo --fix",
+    "start": "set PORT=3001 && node start.js",
+    "dev": "nodemon start.js"
+  },
+  "keywords": [
+    "express",
+    "postgres"
+  ],
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "client-sessions": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "migrate": "^1.7.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "sql-template-strings": "^2.2.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "xo": "^0.36.1"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true
+  }
+}
